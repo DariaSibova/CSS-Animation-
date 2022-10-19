@@ -12,3 +12,8 @@
     background-color: #ecf0f1;
   }
   
+  .loader {
+    width: var(--size);
+    height: var(--size);
+  }
+  
