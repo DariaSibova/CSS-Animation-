@@ -3,3 +3,12 @@
     --speed: 5s;
   }
   
+  body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ecf0f1;
+  }
+  
