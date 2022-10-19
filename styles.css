@@ -30,3 +30,20 @@
     animation: rotate var(--speed) linear infinite;
   }
   
+  .loader__inner:nth-child(2) {
+    box-shadow: 
+      7.5px -5px 0 0 rgba(49,27,146, .6),
+      -7.5px -5px 0 0 rgba(81,45,168, .6),
+      0 10px 0 0 rgba(103,58,183, .6);
+    animation: rotate__other var(--speed) linear infinite;
+  }
+  @keyframes rotate {
+    50% {
+      transform: scale(1.4) rotate(360deg);
+    }
+    100% {
+      transform: scale(1) rotate(720deg);
+    }
+  }
+  
+  
